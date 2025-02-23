@@ -1,6 +1,4 @@
 import re
-from text_type import TextType
-from textnode import TextNode
 
 def extract_markdown_images(text):
     image_reg = r"!\[([^\[\]]*)\]\(([^\(\)]*)\)"
