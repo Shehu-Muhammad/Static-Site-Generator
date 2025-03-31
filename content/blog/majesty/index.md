@@ -8,15 +8,15 @@
 > I much prefer history, true or feigned, with its varied applicability to the thought and experience of readers.
 > I think that many confuse 'applicability' with 'allegory'; but the one resides in the freedom of the reader, and the other in the purposed domination of the author."
 
-In the annals of fantasy literature and the broader realm of creative world-building, few sagas can rival the intricate tapestry woven by J.R.R. Tolkien in <i>The Lord of the Rings</i>. You can find the [wiki here](https://lotr.fandom.com/wiki/Legendarium).
+In the annals of fantasy literature and the broader realm of creative world-building, few sagas can rival the intricate tapestry woven by J.R.R. Tolkien in _The Lord of the Rings_. You can find the [wiki here](https://lotr.fandom.com/wiki/Legendarium).
 
 ## Introduction
 
-This series, a cornerstone of what I, in my many years as an **Archmage**, have come to recognize as the pinnacle of imaginative creation, stands unrivaled in its depth, complexity, and the sheer scope of its <i>legendarium</i>. As we embark on this exploration, let us delve into the reasons why this monumental work is celebrated as the finest in the world.
+This series, a cornerstone of what I, in my many years as an **Archmage**, have come to recognize as the pinnacle of imaginative creation, stands unrivaled in its depth, complexity, and the sheer scope of its _legendarium_. As we embark on this exploration, let us delve into the reasons why this monumental work is celebrated as the finest in the world.
 
 ## A Rich Tapestry of Lore
 
-One cannot simply discuss <i>The Lord of the Rings</i> without acknowledging the bedrock upon which it stands: **The Silmarillion**. This compendium of mythopoeic tales sets the stage for Middle-earth's history, from the creation myth of Eä to the epic sagas of the Elder Days. It is a testament to Tolkien's unparalleled skill as a linguist and myth-maker, crafting:
+One cannot simply discuss _The Lord of the Rings_ without acknowledging the bedrock upon which it stands: **The Silmarillion**. This compendium of mythopoeic tales sets the stage for Middle-earth's history, from the creation myth of Eä to the epic sagas of the Elder Days. It is a testament to Tolkien's unparalleled skill as a linguist and myth-maker, crafting:
 
 1. An elaborate pantheon of deities (the `Valar` and `Maiar`)
 2. The tragic saga of the Noldor Elves
@@ -43,7 +43,7 @@ Tolkien's Middle-earth is a realm of breathtaking diversity and realism, brought
 
 ### The _Struggle_ of Good vs. Evil
 
-At its heart, <i>The Lord of the Rings</i> is a timeless narrative of the perennial struggle between light and darkness, a theme that resonates deeply with the human experience. The saga explores:
+At its heart, _The Lord of the Rings_ is a timeless narrative of the perennial struggle between light and darkness, a theme that resonates deeply with the human experience. The saga explores:
 
 - The resilience of the human (and hobbit) spirit in the face of overwhelming odds
 - The corrupting influence of power, epitomized by the One Ring
@@ -55,7 +55,7 @@ These universal themes lend the series a profound philosophical depth, making it
 
 ### The Influence on Modern Fantasy
 
-The shadow that <i>The Lord of the Rings</i> casts over the fantasy genre is both vast and deep, having inspired countless authors, artists, and filmmakers. Its legacy is evident in:
+The shadow that _The Lord of the Rings_ casts over the fantasy genre is both vast and deep, having inspired countless authors, artists, and filmmakers. Its legacy is evident in:
 
 - The archetypal "hero's journey" that has become a staple of fantasy narratives
 - The trope of the "fellowship," a diverse group banding together to face a common foe
