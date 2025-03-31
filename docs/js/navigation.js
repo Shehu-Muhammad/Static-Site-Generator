@@ -1,32 +1,29 @@
-// navigation.js
 document.addEventListener('DOMContentLoaded', function() {
-    // Get current path
-    const path = window.location.pathname;
+  // Get all navigation links
+  const navLinks = document.querySelectorAll('nav a');
+  
+  // Get current path and normalize it (remove trailing slash if it exists)
+  let currentPath = window.location.pathname;
+  if (currentPath.endsWith('/') && currentPath !== '/') {
+    currentPath = currentPath.slice(0, -1);  // Remove trailing slash
+  }
+  
+  console.log("Normalized current path:", currentPath);
+  
+  // Loop through all nav links
+  navLinks.forEach(link => {
+    let href = link.getAttribute('href');
+    // Normalize href too (remove trailing slash if it exists)
+    if (href.endsWith('/') && href !== '/') {
+      href = href.slice(0, -1);
+    }
     
-    // Your actual basepath - should match what you're using in build.sh
-    const basePathPrefix = "/Static-Site-Generator"; 
+    console.log("Checking if", href, "matches", currentPath);
     
-    // Remove the basepath from the current path for comparison
-    const relativePath = path.startsWith(basePathPrefix) 
-      ? path.substring(basePathPrefix.length) || '/' 
-      : path;
-    
-    // Find all navigation links
-    const navLinks = document.querySelectorAll('nav a');
-    
-    // Check each link to see if it matches the current path
-    navLinks.forEach(link => {
-      // Get the href attribute
-      const href = link.getAttribute('href');
-      
-      // Remove the basepath from the href for comparison
-      const relativeHref = href.startsWith(basePathPrefix) 
-        ? href.substring(basePathPrefix.length) || '/' 
-        : href;
-      
-      // If this link matches the current path, add the 'current-page' class
-      if(relativeHref === relativePath) {
-        link.classList.add('current-page');
-      }
-    });
+    // Apply current-page class if the href matches the current path
+    if (href === currentPath) {
+      console.log("Match found! Adding current-page class to", href);
+      link.classList.add('current-page');
+    }
   });
+});
