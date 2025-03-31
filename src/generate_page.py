@@ -2,7 +2,7 @@ import os
 from markdown_to_html import markdown_to_html_node
 from extract_title import extract_title
 
-def generate_page(from_path, template_path, dest_path):
+def generate_page(from_path, template_path, dest_path, basepath):
     print(f"Generating page from {from_path} to {dest_path} using {template_path}")
     
     # Read the files
@@ -20,6 +20,10 @@ def generate_page(from_path, template_path, dest_path):
     # Replace the placeholders
     final_html = template_content.replace("{{ Title }}", title)
     final_html = final_html.replace("{{ Content }}", html_content)
+
+    # Replace root-relative paths with basepath-prefixed paths
+    final_html = final_html.replace('href="/', f'href="{basepath}')
+    final_html = final_html.replace('src="/', f'src="{basepath}')
     
     # Create the directory if it doesn't exist
     os.makedirs(os.path.dirname(dest_path), exist_ok=True)
