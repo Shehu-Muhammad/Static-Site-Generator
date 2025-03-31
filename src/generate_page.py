@@ -22,11 +22,11 @@ def generate_page(from_path, template_path, dest_path, basepath):
     final_html = final_html.replace("{{ Content }}", html_content)
 
     # Replace the basepath placeholder
-    final_html = final_html.replace("{{ basepath }}", basepath)
+    # final_html = final_html.replace("{{ basepath }}", basepath)
 
     # Replace root-relative paths with basepath-prefixed paths
-    # final_html = final_html.replace('href="/', f'href="{basepath}')
-    # final_html = final_html.replace('src="/', f'src="{basepath}')
+    final_html = final_html.replace('href="/', f'href="{basepath}')
+    final_html = final_html.replace('src="/', f'src="{basepath}')
     
     # Create the directory if it doesn't exist
     os.makedirs(os.path.dirname(dest_path), exist_ok=True)
