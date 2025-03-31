@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> {{ Title }} </title>
-    <link href="/index.css" rel="stylesheet">
+    <link href="{{ basepath }}index.css" rel="stylesheet">
 </head>
 
 <body>
     <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog/majesty">The Majesty of Tolkien</a></li>
-          <li><a href="/blog/tom">Tom Bombadil</a></li>
-          <li><a href="/blog/glorfindel">About Glorfindel</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="{{ basepath }}">Home</a></li>
+          <li><a href="{{ basepath }}blog/majesty">The Majesty of Tolkien</a></li>
+          <li><a href="{{ basepath }}blog/tom">Tom Bombadil</a></li>
+          <li><a href="{{ basepath }}blog/glorfindel">About Glorfindel</a></li>
+          <li><a href="{{ basepath }}contact">Contact</a></li>
         </ul>
       </nav>
     <article>
         {{ Content }}
     </article>
-    <script src="/Static-Site-Generator/js/navigation.js"></script>
+    <script src="{{ basepath }}js/navigation.js"></script>
 </body>
 
 </html>
