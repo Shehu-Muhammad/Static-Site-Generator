@@ -92,9 +92,9 @@ img {
     border-radius: 6px;
 }
 
-/* First, make your nav styling more specific */
+/* Navigation styling with more contrast */
 body nav {
-    background-color: #161b22; /* Darker shade to match your theme */
+    background-color: #161b22; /* Dark background for nav bar */
     padding: 10px 20px;
     margin-bottom: 20px;
     border-radius: 6px;
@@ -112,25 +112,26 @@ body nav li {
     margin-right: 20px;
 }
 
-/* Override general anchor styling for nav links specifically */
+/* Nav links */
 body nav a {
     text-decoration: none;
-    color: #c9d1d9 !important; /* Match your body text color */
+    color: #c9d1d9 !important; /* Light text color */
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 3px;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
 }
 
 body nav a:hover {
-    background-color: #30363d !important;
-    text-decoration: none !important; /* Override the general a:hover */
-    color: #58a6ff !important;
+    background-color: #21262d !important; /* Slightly lighter on hover */
+    text-decoration: none !important;
+    color: #58a6ff !important; /* Blue text on hover */
 }
 
-/* Make current page highlighting even more specific */
+/* Current page with distinct highlighting */
 body nav a.current-page {
-    background-color: #30363d !important;
-    color: #58a6ff !important;
+    background-color: #1f6feb !important; /* Blue background */
+    color: white !important; /* White text */
     font-weight: bold;
+    box-shadow: 0 0 5px rgba(56, 139, 253, 0.4) !important; /* Subtle glow */
 }
